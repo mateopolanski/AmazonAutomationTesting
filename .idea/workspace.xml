@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="10760a31-90d8-4728-9489-605c50dd187e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AmazonSearchList.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,14 +43,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="2844" />
+          <entry key="java" value="2894" />
           <entry key="txt" value="6" />
           <entry key="xml" value="44" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2844" />
+          <entry key="JAVA" value="2894" />
           <entry key="PLAIN_TEXT" value="28" />
           <entry key="XML" value="44" />
         </counts>
@@ -57,20 +59,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="652">
+            <state relative-caret-position="397">
               <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+            <state relative-caret-position="177">
+              <caret line="57" selection-start-line="56" selection-start-column="62" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -81,8 +83,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="868">
+              <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -105,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="238">
+              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -148,10 +150,10 @@
         <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonSearchList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" />
       </list>
     </option>
   </component>
@@ -224,7 +226,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617796579361" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617799295226" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumAT/AutomationTraining" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -247,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AmazonSearchListTest">
+  <component name="RunManager">
     <configuration name="AmazonAddItemToBasket.seeBasketContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AmazonTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -378,19 +380,17 @@
       <option name="project" value="LOCAL" />
       <updated>1617796543716</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="commit">
+      <created>1617796986534</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1617796986534</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AmazonSearchList - 2021.04.07 at 13h 07m 26s.xml">
-      <configuration name="AmazonSearchList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AmazonSearchList - 2021.04.07 at 13h 08m 13s.xml">
-      <configuration name="AmazonSearchList" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AmazonSearchList - 2021.04.07 at 13h 12m 50s.xml">
-      <configuration name="AmazonSearchList" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AmazonSearchList - 2021.04.07 at 13h 14m 20s.xml">
       <configuration name="AmazonSearchList" configurationId="JUnit" />
     </history-entry>
@@ -412,6 +412,15 @@
     <history-entry file="AmazonSearchList - 2021.04.07 at 13h 40m 32s.xml">
       <configuration name="AmazonSearchList" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AmazonSearchListTest - 2021.04.07 at 14h 21m 26s.xml">
+      <configuration name="AmazonSearchListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonSearchListTest - 2021.04.07 at 14h 21m 56s.xml">
+      <configuration name="AmazonSearchListTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonSearchListTest - 2021.04.07 at 14h 22m 22s.xml">
+      <configuration name="AmazonSearchListTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,8 +433,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="633" y="-7" width="655" height="735" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31932774" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31932774" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -434,7 +444,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4601329" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4601329" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,7 +453,7 @@
       <window_info anchor="bottom" id="SonarLint" order="8" weight="0.32996634" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32225913" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32225913" />
       <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32907662" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.3277311" />
@@ -484,36 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AmazonSearchListTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -526,8 +506,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
+        <state relative-caret-position="397">
           <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="55" column="5" lean-forward="true" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="57" selection-start-line="56" selection-start-column="62" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

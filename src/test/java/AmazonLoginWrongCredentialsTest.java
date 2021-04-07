@@ -3,6 +3,7 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 
+import java.util.*;
 import java.util.concurrent.*;
 
  class AmazonLoginWrongCredentialsTest {
@@ -11,7 +12,8 @@ import java.util.concurrent.*;
     private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
     private WebDriver driver;
     private final String ACCOUNT_EMAIL = "dxc03609@cuoly.com";
-    private final String BAD_AUTH_PASS = "-wrong-password-";
+    private Random randomGenerator = new Random();
+    private int badAuthorizationPass = randomGenerator.nextInt(10000);
 
 
     @BeforeEach
@@ -35,7 +37,7 @@ import java.util.concurrent.*;
         driver.findElement(By.className("a-button-input")).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ap_password")));
 
-        driver.findElement(By.id("ap_password")).sendKeys(BAD_AUTH_PASS);
+        driver.findElement(By.id("ap_password")).sendKeys("pass"+badAuthorizationPass);
         driver.findElement(By.id("signInSubmit")).click();
 
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
