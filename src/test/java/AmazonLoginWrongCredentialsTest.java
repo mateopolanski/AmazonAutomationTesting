@@ -25,7 +25,7 @@ public class AmazonLoginWrongCredentialsTest {
     }
 
     @Test
-    public void LoginToExistingAccount() {
+    public void unsuccessfullLoginToExistingAccount() {
 
         WebElement signInBtn = driver.findElement(By.xpath("//span[@class=\"nav-line-2 nav-long-width\"]"));
         signInBtn.click();

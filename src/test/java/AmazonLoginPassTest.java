@@ -27,7 +27,7 @@ public class AmazonLoginPassTest {
     }
 
     @Test
-    public void LoginToExistingAccount() {
+    public void successfullLginToExistingAccount() {
 
         WebElement signInBtn = driver.findElement(By.xpath("//span[@class=\"nav-line-2 nav-long-width\"]"));
         signInBtn.click();
