@@ -5,7 +5,7 @@ import org.openqa.selenium.support.ui.*;
 
 import java.util.concurrent.*;
 
-public class AmazonAddItemsToBasket {
+public class AmazonAddItemToBasket {
 
     public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
     public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
@@ -15,7 +15,6 @@ public class AmazonAddItemsToBasket {
     public static final String CARTRIDGE_SET = "//span[text()=\"Dragonhawk Mast Tattoo Cartridges Needles 50pcs " +
             "Round Liner Mixed 3RL 5RL 7RL 9RL 11RL Size for Machine Kit Supply (50pcs RL)\"]";
     public static final String ADD_ITEM_TO_BASKET = "add-to-cart-button";
-    WebDriverWait wait = new WebDriverWait(driver , 2);
 
 
     @BeforeEach
@@ -37,7 +36,7 @@ public class AmazonAddItemsToBasket {
 
         driver.manage().timeouts().implicitlyWait(2 , TimeUnit.SECONDS);
 
-
+        WebDriverWait wait = new WebDriverWait(driver, 2);
         WebElement product1 = driver.findElement(By.xpath("//span[text()=\"Mom's Black Onyx Tattoo Ink - 1/2oz\"]"));
         product1.click();
         wait.until(ExpectedConditions.elementToBeClickable(By.id(ADD_ITEM_TO_BASKET))).click();
@@ -54,11 +53,6 @@ public class AmazonAddItemsToBasket {
         searchItem3.sendKeys(Keys.ENTER);
         WebElement product3 = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(CARTRIDGE_SET)));
         product3.click();
-
-    }
-
-        @Test
-        public void seeBasketContents () {
         wait.until(ExpectedConditions.elementToBeClickable(By.id(ADD_ITEM_TO_BASKET))).click();
         wait.until(ExpectedConditions.presenceOfElementLocated(By.id("hlb-view-cart-announce"))).click();
         String subtotal = driver.findElement(By.id("sc-subtotal-label-activecart")).getText();
