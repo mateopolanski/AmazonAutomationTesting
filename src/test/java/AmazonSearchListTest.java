@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.*;
 import org.testng.asserts.SoftAssert;
 
 
- class AmazonSearchList {
+ class AmazonSearchListTest {
 
     private static final String AMAZON_PAGE_TITLE = "Amazono.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
     private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
