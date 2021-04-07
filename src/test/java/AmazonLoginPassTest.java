@@ -1,13 +1,12 @@
-import org.jboss.aerogear.security.otp.*;
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 
-import java.util.*;
 import java.util.concurrent.*;
 
-public class AmazonLoginTest {
+
+public class AmazonLoginPassTest {
 
 
     public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
@@ -40,6 +39,12 @@ public class AmazonLoginTest {
 
         driver.findElement(By.id("ap_password")).sendKeys(AUTH_PASS);
         driver.findElement(By.id("signInSubmit")).click();
+
+        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+
+        WebElement signName = driver.findElement(By.id("nav-link-accountList-nav-line-1"));
+        String match = signName.getText();
+        Assertions.assertEquals("Hello, AmazonTester", match);
     }
 }
 
