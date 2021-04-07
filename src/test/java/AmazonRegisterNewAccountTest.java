@@ -52,6 +52,16 @@ public class AmazonRegisterNewAccountTest {
                 WebElement message = driver.findElement(By.xpath(OTP_MESSAGE));
                 String alert = message.getText();
                 Assertions.assertEquals("Invalid OTP. Please check your code and try again." , alert);
+
+                /*
+                Even with additional libraries "org.jboss.aerogear.security.otp.Totp;" safety F2V of Amazon would not
+                allow to bypass OTP code, and progress further to register a new account by Selenium.
+                 */
             }
+    @AfterEach
+    public void closeDriver () {
+
+        driver.quit();
+    }
 }
 

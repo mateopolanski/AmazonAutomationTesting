@@ -43,5 +43,16 @@ public class AmazonLoginWrongCredentialsTest {
         WebElement wrongPswd = driver.findElement(By.className("a-list-item"));
         String alert = wrongPswd.getText();
         Assertions.assertEquals("Your password is incorrect", alert);
+
+        /*
+        Program should not log into account as an password authorisation key is not correct. Valid password is given
+        in AmazonLoginPassTest.class
+         */
+    }
+
+    @AfterEach
+    public void closeDriver () {
+
+        driver.quit();
     }
 }

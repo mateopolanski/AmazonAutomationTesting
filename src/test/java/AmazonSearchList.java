@@ -1,10 +1,16 @@
+import org.junit.*;
 import org.junit.jupiter.api.*;
+import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
+import org.testng.asserts.SoftAssert;
+
+import java.util.concurrent.*;
 
 public class AmazonSearchList {
 
+    public static final String AMAZON_PAGE_TITLE = "Amazono.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
     public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
     public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
     WebDriver driver;
@@ -17,6 +23,10 @@ public class AmazonSearchList {
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(AMAZON_HOMEPAGE);
+        String title = driver.getTitle();
+        SoftAssert sa = new SoftAssert();
+        sa.assertEquals(AMAZON_PAGE_TITLE, title);
+
 
     }
 
@@ -36,12 +46,11 @@ public class AmazonSearchList {
         String brand = driver.findElement(By.id("bylineInfo")).getText();
         Assertions.assertTrue(brand.equals("Brand: Cheyenne"));
 
-//        WebDriverWait wait = new WebDriverWait(driver, 3);
-//        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ap_email"))).sendKeys(ACCOUNT_EMAIL);
-//        driver.findElement(By.className("a-button-input")).click();
-//        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ap_password")));
-//
-//        driver.findElement(By.id("ap_password")).sendKeys(AUTH_PASS);
-//        driver.findElement(By.id("signInSubmit")).click();
+    }
+
+    @AfterEach
+    public void closeDriver () {
+
+        driver.quit();
     }
 }
