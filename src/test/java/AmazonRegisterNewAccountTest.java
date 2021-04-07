@@ -6,24 +6,23 @@ import org.jboss.aerogear.security.otp.Totp;
 import java.util.*;
 import java.util.concurrent.*;
 
-public class AmazonRegisterNewAccountTest {
+ class AmazonRegisterNewAccountTest {
 
-    public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
-    public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
-    WebDriver driver;
-    Random randomGenerator = new Random();
-    public int randomInt = randomGenerator.nextInt(10000);
-    public final String PASS = "Pass1234567890";
-    public final String OTP_MESSAGE = "//div[@class=\"a-section cvf-alert-section cvf-widget-alert-message\"]";
+    private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
+    private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
+    private WebDriver driver;
+    private Random randomGenerator = new Random();
+    private int randomInt = randomGenerator.nextInt(10000);
+    private final String PASS = "Pass1234567890";
+    private final String OTP_MESSAGE = "//div[@class=\"a-section cvf-alert-section cvf-widget-alert-message\"]";
 
-    String otpKeyStr = "6jm7n6xwitpjooh7ihewyyzeux7aqmw2"; // <- this 2FA secret key.
-
-    Totp totp = new Totp(otpKeyStr);
-    String twoFactorCode = totp.now(); // <- got 2FA coed at this time!
+    private String otpKeyStr = "6jm7n6xwitpjooh7ihewyyzeux7aqmw2"; // <- this 2FA secret key.
+    private Totp totp = new Totp(otpKeyStr);
+    private String twoFactorCode = totp.now(); // <- got 2FA coed at this time!
 
 
     @BeforeEach
-    public void navigateToHomepage() throws InterruptedException {
+     void navigateToHomepage() {
 
                 System.setProperty("webdriver.chrome.driver" , CHROME_DRIVER_PATH);
                 driver = new ChromeDriver();
@@ -32,7 +31,7 @@ public class AmazonRegisterNewAccountTest {
             }
 
             @Test
-            public void registerNewAccount() {
+             void registerNewAccount() {
 
                 WebElement signInBtn = driver.findElement(By.xpath("//span[@class=\"nav-line-2 nav-long-width\"]"));
                 signInBtn.click();
@@ -59,7 +58,7 @@ public class AmazonRegisterNewAccountTest {
                  */
             }
     @AfterEach
-    public void closeDriver () {
+     void closeDriver () {
 
         driver.quit();
     }

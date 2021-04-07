@@ -5,17 +5,17 @@ import org.openqa.selenium.support.ui.*;
 
 import java.util.concurrent.*;
 
-public class AmazonLoginWrongCredentialsTest {
+ class AmazonLoginWrongCredentialsTest {
 
-    public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
-    public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
-    WebDriver driver;
-    public final String ACCOUNT_EMAIL = "dxc03609@cuoly.com";
-    public final String BAD_AUTH_PASS = "-wrong-password-";
+    private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
+    private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
+    private WebDriver driver;
+    private final String ACCOUNT_EMAIL = "dxc03609@cuoly.com";
+    private final String BAD_AUTH_PASS = "-wrong-password-";
 
 
     @BeforeEach
-    public void navigateToHomepage() {
+     void navigateToHomepage() {
 
         System.setProperty("webdriver.chrome.driver" , CHROME_DRIVER_PATH);
         driver = new ChromeDriver();
@@ -25,7 +25,7 @@ public class AmazonLoginWrongCredentialsTest {
     }
 
     @Test
-    public void unsuccessfullLoginToExistingAccount() {
+     void unsuccessfullLoginToExistingAccount() {
 
         WebElement signInBtn = driver.findElement(By.xpath("//span[@class=\"nav-line-2 nav-long-width\"]"));
         signInBtn.click();
@@ -51,7 +51,7 @@ public class AmazonLoginWrongCredentialsTest {
     }
 
     @AfterEach
-    public void closeDriver () {
+     void closeDriver () {
 
         driver.quit();
     }

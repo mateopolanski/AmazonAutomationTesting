@@ -5,20 +5,20 @@ import org.openqa.selenium.support.ui.*;
 
 import java.util.concurrent.*;
 
-public class AmazonAddItemToBasket {
+ class AmazonAddItemToBasket {
 
-    public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
-    public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
-    WebDriver driver;
-    public static final String INK_ITEM = "tattoo ink";
-    public static final String CARTRIDGE_ITEM = "tattoo cartridge";
-    public static final String CARTRIDGE_SET = "//span[text()=\"Dragonhawk Mast Tattoo Cartridges Needles 50pcs " +
+    private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
+    private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
+    private WebDriver driver;
+    private static final String INK_ITEM = "tattoo ink";
+    private static final String CARTRIDGE_ITEM = "tattoo cartridge";
+    private static final String CARTRIDGE_SET = "//span[text()=\"Dragonhawk Mast Tattoo Cartridges Needles 50pcs " +
             "Round Liner Mixed 3RL 5RL 7RL 9RL 11RL Size for Machine Kit Supply (50pcs RL)\"]";
-    public static final String ADD_ITEM_TO_BASKET = "add-to-cart-button";
+    private static final String ADD_ITEM_TO_BASKET = "add-to-cart-button";
 
 
     @BeforeEach
-    public void navigateToHomepage() {
+     void navigateToHomepage() {
 
         System.setProperty("webdriver.chrome.driver" , CHROME_DRIVER_PATH);
         driver = new ChromeDriver();
@@ -28,7 +28,7 @@ public class AmazonAddItemToBasket {
     }
 
     @Test
-    public void addItems() {
+     void addItems() {
 
         WebElement searchItem1 = driver.findElement(By.id("twotabsearchtextbox"));
         searchItem1.sendKeys(INK_ITEM);
@@ -61,7 +61,7 @@ public class AmazonAddItemToBasket {
     }
 
     @AfterEach
-    public void closeDriver () {
+     void closeDriver () {
 
         driver.quit();
     }

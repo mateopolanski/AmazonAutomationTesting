@@ -6,18 +6,18 @@ import org.openqa.selenium.support.ui.*;
 import java.util.concurrent.*;
 
 
-public class AmazonLoginPassTest {
+ class AmazonLoginPassTest {
 
 
     private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
     private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
-    WebDriver driver;
+    private WebDriver driver;
     private final String ACCOUNT_EMAIL = "dxc03609@cuoly.com";
     private final String AUTH_PASS = "Password12345";
 
 
     @BeforeEach
-    public void navigateToHomepage() {
+     void navigateToHomepage() {
 
         System.setProperty("webdriver.chrome.driver" , CHROME_DRIVER_PATH);
         driver = new ChromeDriver();
@@ -27,7 +27,7 @@ public class AmazonLoginPassTest {
     }
 
     @Test
-    public void successfullLginToExistingAccount() {
+     void successfullLginToExistingAccount() {
 
         WebElement signInBtn = driver.findElement(By.xpath("//span[@class=\"nav-line-2 nav-long-width\"]"));
         signInBtn.click();
@@ -56,7 +56,7 @@ public class AmazonLoginPassTest {
     }
 
         @AfterEach
-        public void closeDriver () {
+         void closeDriver () {
 
         driver.quit();
         }

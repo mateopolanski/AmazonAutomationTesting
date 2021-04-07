@@ -1,4 +1,4 @@
-import org.junit.*;
+
 import org.junit.jupiter.api.*;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.*;
@@ -6,18 +6,17 @@ import org.openqa.selenium.chrome.*;
 import org.openqa.selenium.support.ui.*;
 import org.testng.asserts.SoftAssert;
 
-import java.util.concurrent.*;
 
-public class AmazonSearchList {
+ class AmazonSearchList {
 
-    public static final String AMAZON_PAGE_TITLE = "Amazono.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
-    public static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
-    public static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
-    WebDriver driver;
-    public static final String SEARCHED_ITEM = "cheyenne";
+    private static final String AMAZON_PAGE_TITLE = "Amazono.com: Online Shopping for Electronics, Apparel, Computers, Books, DVDs & more";
+    private static final String CHROME_DRIVER_PATH = "D:\\chromedriver.exe";
+    private static final String AMAZON_HOMEPAGE = "https:\\amazon.com";
+    private WebDriver driver;
+    private static final String SEARCHED_ITEM = "cheyenne";
 
     @BeforeEach
-    public void navigateToHomepage() {
+     void navigateToHomepage() {
 
         System.setProperty("webdriver.chrome.driver" , CHROME_DRIVER_PATH);
         driver = new ChromeDriver();
@@ -31,7 +30,7 @@ public class AmazonSearchList {
     }
 
     @Test
-    public void searchForItem() {
+     void searchForItem() {
 
         WebElement searchBar = driver.findElement(By.id("twotabsearchtextbox"));
         searchBar.sendKeys(SEARCHED_ITEM);
@@ -49,7 +48,7 @@ public class AmazonSearchList {
     }
 
     @AfterEach
-    public void closeDriver () {
+     void closeDriver () {
 
         driver.quit();
     }
