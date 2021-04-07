@@ -36,32 +36,6 @@ public class AmazonSearchList {
         String brand = driver.findElement(By.id("bylineInfo")).getText();
         Assertions.assertTrue(brand.equals("Brand: Cheyenne"));
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //        WebDriverWait wait = new WebDriverWait(driver, 3);
 //        wait.until(ExpectedConditions.presenceOfElementLocated(By.id("ap_email"))).sendKeys(ACCOUNT_EMAIL);
 //        driver.findElement(By.className("a-button-input")).click();

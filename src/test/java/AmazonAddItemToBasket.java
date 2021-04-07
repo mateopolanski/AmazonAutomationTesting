@@ -58,22 +58,15 @@ public class AmazonAddItemToBasket {
         String subtotal = driver.findElement(By.id("sc-subtotal-label-activecart")).getText();
 
         Assertions.assertEquals("Subtotal (3 items):", subtotal);
-
 //        String item1 = product1.getText();
 //        String item2 = product2.getText();
 //        String item3 = product3.getText();
-//
 //        Assertions.assertTrue(item1.contains("Mom's Black Onyx Tattoo Ink - 1/2oz"));
 //        Assertions.assertTrue(item2.contains("Dynamic Black Tattoo Ink Bottle 8oz"));
 //        Assertions.assertTrue(item3.contains("Dragonhawk Mast Tattoo Cartridges Needles 50pcs"));
-
-
-
 //        String product = driver.findElement(By.id("productTitle")).getText();
 //        Assertions.assertTrue(product.contains("Cheyenne Tattoo Machine Hawk Pen - Black"));
 //        String brand = driver.findElement(By.id("bylineInfo")).getText();
 //        Assertions.assertTrue(brand.equals("Brand: Cheyenne"));
-
-
     }
 }

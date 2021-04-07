@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="10760a31-90d8-4728-9489-605c50dd187e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AmazonTesting.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AmazonTesting.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AmazonSearchList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AmazonSearchList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AmazonAddItemToBasket.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AmazonAddItemToBasket.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AmazonRegisterNewAccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AmazonRegisterNewAccountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AmazonSearchList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AmazonSearchList.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,27 +36,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="6" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="6" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="18" />
-          <entry key="java" value="1645" />
+          <entry key="java" value="1807" />
           <entry key="txt" value="6" />
           <entry key="xml" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1645" />
+          <entry key="JAVA" value="1807" />
           <entry key="PLAIN_TEXT" value="24" />
           <entry key="XML" value="11" />
         </counts>
@@ -71,20 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-391">
-              <caret line="16" column="109" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+            <state relative-caret-position="493">
+              <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,10 +87,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-224">
+              <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-703">
-              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="48">
+              <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -107,8 +113,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-204">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="-496">
+              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AmazonSearchList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-119">
-              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+            <state relative-caret-position="51">
+              <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -146,13 +152,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RegisterNewAccountTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonSearchList.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonLoginTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonAddItemsToBasket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java" />
-        <option value="$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonSearchList.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java" />
       </list>
     </option>
   </component>
@@ -172,10 +179,10 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1069" />
+    <option name="width" value="860" />
+    <option name="height" value="1091" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,7 +231,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617758846674" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1617761660928" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../SeleniumAT/AutomationTraining" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -247,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AmazonRegisterNewAccountTest.registerNewAccount">
+  <component name="RunManager" selected="JUnit.AmazonSearchList">
     <configuration name="AmazonAddItemToBasket.addItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AmazonTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -276,16 +283,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AmazonAddItemsToBasket.seeBasketContents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AmazonTesting" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AmazonAddItemsToBasket" />
-      <option name="METHOD_NAME" value="seeBasketContents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AmazonRegisterNewAccountTest.registerNewAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AmazonTesting" />
       <option name="PACKAGE_NAME" value="" />
@@ -296,20 +293,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AmazonSearchList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AmazonTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AmazonSearchList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.AmazonAddItemsToBasket.seeBasketContents" />
       <item itemvalue="JUnit.AmazonAddItemsToBasket" />
       <item itemvalue="JUnit.AmazonAddItemToBasket.addItems" />
       <item itemvalue="JUnit.AmazonAddItemToBasket.seeBasketContents" />
       <item itemvalue="JUnit.AmazonRegisterNewAccountTest.registerNewAccount" />
+      <item itemvalue="JUnit.AmazonSearchList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AmazonSearchList" />
         <item itemvalue="JUnit.AmazonRegisterNewAccountTest.registerNewAccount" />
         <item itemvalue="JUnit.AmazonAddItemToBasket.seeBasketContents" />
         <item itemvalue="JUnit.AmazonAddItemToBasket.addItems" />
         <item itemvalue="JUnit.AmazonAddItemsToBasket" />
-        <item itemvalue="JUnit.AmazonAddItemsToBasket.seeBasketContents" />
       </list>
     </recent_temporary>
   </component>
@@ -352,13 +357,17 @@
       <option name="project" value="LOCAL" />
       <updated>1617758200534</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1617758951086</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1617758951086</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AmazonLoginWrongCredentialsTest_LoginToExistingAccount - 2021.04.07 at 03h 05m 51s.xml">
-      <configuration name="AmazonLoginWrongCredentialsTest.LoginToExistingAccount" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="AmazonLoginWrongCredentialsTest_LoginToExistingAccount - 2021.04.07 at 03h 09m 54s.xml">
       <configuration name="AmazonLoginWrongCredentialsTest.LoginToExistingAccount" configurationId="JUnit" />
     </history-entry>
@@ -385,6 +394,9 @@
     </history-entry>
     <history-entry file="AmazonRegisterNewAccountTest_registerNewAccount - 2021.04.07 at 03h 27m 37s.xml">
       <configuration name="AmazonRegisterNewAccountTest.registerNewAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AmazonSearchList - 2021.04.07 at 04h 04m 57s.xml">
+      <configuration name="AmazonSearchList" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -437,20 +449,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-391">
-          <caret line="16" column="109" selection-start-line="16" selection-start-column="109" selection-end-line="16" selection-end-column="109" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-703">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="201">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -459,8 +461,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AmazonSearchList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-119">
-          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="51">
+          <caret line="36" column="63" selection-start-line="36" selection-start-column="63" selection-end-line="36" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonRegisterNewAccountTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -469,8 +481,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginWrongCredentialsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="-496">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -479,8 +491,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AmazonLoginPassTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="46" column="32" lean-forward="true" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state relative-caret-position="-224">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/AmazonAddItemToBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="59" column="65" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

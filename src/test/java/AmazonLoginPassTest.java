@@ -47,4 +47,3 @@ public class AmazonLoginPassTest {
         Assertions.assertEquals("Hello, AmazonTester", match);
     }
 }
-

@@ -41,7 +41,7 @@ public class AmazonRegisterNewAccountTest {
                 WebElement newAccount = driver.findElement(By.xpath("//a[@class=\"a-button-text\"]"));
 
                 newAccount.click();
-                driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+                driver.manage().timeouts().implicitlyWait(5 , TimeUnit.SECONDS);
                 driver.findElement(By.id("ap_customer_name")).sendKeys("Mateusz");
                 driver.findElement(By.id("ap_email")).sendKeys("usernamex" + randomInt + "@gmail.com");
                 driver.findElement(By.xpath("//input[@type=\"password\"]")).sendKeys(PASS);
@@ -51,54 +51,7 @@ public class AmazonRegisterNewAccountTest {
                 driver.findElement(By.className("a-button-input")).click();
                 WebElement message = driver.findElement(By.xpath(OTP_MESSAGE));
                 String alert = message.getText();
-                Assertions.assertEquals("Invalid OTP. Please check your code and try again.", alert);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//        WebElement register = driver.findElement(By.xpath("//a[@href=\"https://www.sklepopon.com/rejestracja.html\"]"));
-//        register.click();
-//        driver.findElement(By.id("imie")).sendKeys("Panna");
-//        driver.findElement(By.id("nazwisko")).sendKeys("Konstantynopolitańczykowianeczka");
-//        driver.findElement(By.id("email2")).sendKeys("usernamex" + randomInt + "@gmail.com");
-//        driver.manage().timeouts().implicitlyWait(4 , TimeUnit.SECONDS);
-//        driver.findElement(By.id("email_check")).sendKeys("usernamex" + this.randomInt + "@gmail.com");
-//        driver.findElement(By.xpath("//input[@name=\"formData[haslo]\"]")).sendKeys("Haslo123.");
-//        driver.findElement(By.xpath("//input[@name=\"formData[haslo2]\"]")).sendKeys("Haslo123.");
-//
-//        if (!driver.findElement(By.xpath("//input[@name=\"formData[regulamin]\" and @id=\"accept-rules\" and @value=\"0\" and @type=\"checkbox\" and @class=\"floatLeft\"]")).isSelected()) {
-//
-//            driver.findElement(By.xpath("//input[@name=\"formData[regulamin]\" and @id=\"accept-rules\" and @value=\"0\" and @type=\"checkbox\" and @class=\"floatLeft\"]")).sendKeys(Keys.SPACE);
-//        }
-//        driver.findElement(By.xpath("//a[@href=\"#\" and @onclick=\"wyslijRej();return false;\"]")).click();
-//        driver.manage().timeouts().implicitlyWait(4 , TimeUnit.SECONDS);
-//
-
-    }
-
-//    @AfterEach
-//    public void zamknijBrowser() {
-//
-//        driver.quit();
-//    }
+                Assertions.assertEquals("Invalid OTP. Please check your code and try again." , alert);
+            }
 }
 
